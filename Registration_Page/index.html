@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+  </head>
+  <body>
+    <form action="./login.html">
+      <div class="container">
+        <h1>Registration Page</h1>
+        <p>Please fill in the form to Register!</p>
+        <hr />
+
+        <label for="firstname"> Enter your First name: </label>
+        <input type="text" name="firstname" id="first name" required />
+        <br />
+
+        <label for="last name"> Enter your Last name: </label>
+        <input type="text" name="lastname" id="last name" required />
+        <br />
+
+        <label for="number"> Enter your Phone number: </label>
+        <input
+          type="number"
+          placeholder="+234 (0) 8012345678"
+          name="number"
+          id="number"
+          max="11"
+          required
+        />
+        <br />
+
+        <label for="Email"> Enter your email: </label>
+        <input
+          type="text"
+          placeholder="user@gmail.com"
+          name="email"
+          id="email"
+          required
+        />
+        <br />
+
+        <label for="gender"> Gender: </label>
+        <select name="text" id="gender">
+          <option value="Gender">select option</option>
+          <option value="Gender">Male</option>
+          <option value="Gender">Female</option>
+        </select>
+        <br />
+
+        <label for="input your age"> Date of birth: </label>
+        <input type="date" name="date" id="date" required />
+        <br />
+
+        <label for="colour"> Favorite colour: </label>
+        <select name="text" id="colour">
+          <option value="colour" aria-placeholder="select colour">
+            select
+          </option>
+          <option value="colour">Red</option>
+          <option value="colour">Blue</option>
+          <option value="colour">White</option>
+          <option value="colour">Green</option>
+          <option value="colour">Orange</option>
+          <option value="colour">Indigo</option>
+          <option value="colour">Yellow</option>
+          <option value="colour">Pink</option>
+          <option value="colour">Black</option>
+        </select>
+        <br />
+        <hr />
+
+        <p>
+          By clicking on Register, You are agreeing to our
+          <a href="#">Terms & Conditions</a>
+        </p>
+        <button type="submit" class="reg-btn">Register</button>
+      </div>
+    </form>
+  </body>
+</html>
